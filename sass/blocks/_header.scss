@@ -1,0 +1,40 @@
+.site-header{
+    background-color: #014E56;
+    padding-top: 73px;
+    padding-bottom: 120px;
+}
+
+.site-header__inner{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    gap: 40px;
+}
+
+
+.nav__link {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.site-header__link{
+    width: 153px;
+    padding: 10px 0;
+    margin-left: auto;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    text-align: center;
+}
+
