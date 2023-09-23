@@ -99,3 +99,83 @@
     background-image: url("../images/author3.svg");
 }
 
+
+@media only screen and (max-width:768px) {
+    .feedback {
+        padding: 100px 0;
+    }
+    
+    .feedback__title-wrapper {
+        width: 100%;
+        max-width: 573px;
+        margin: 0 auto;
+    }
+    
+    .feedback__title {
+        font-size: 32px;
+        line-height: 32px; 
+        margin-bottom: 84px;
+        text-align: center;
+    }
+    
+    .feedback__list {
+       flex-direction: column;
+    }
+    
+    .feedback__item {
+        width: 100%;
+        max-width: 573px;
+    }
+    
+    
+    .feedback__quote {
+        margin-bottom: 16px;
+    }
+    
+    
+    .feedback__item::after {
+        margin-top: 16px;
+        margin-bottom: 48px;
+    }
+
+    .feedback__item:nth-child(3):after{
+        margin-bottom: 0;
+    }
+    
+}
+
+@media only screen and (max-width:576px) {
+    .feedback {
+        padding: 140px 0  164px;
+    }
+    
+    .feedback__title-wrapper {
+        width: 100%;
+        max-width: 327px;
+        margin: 0 auto;
+    }
+    
+
+    
+    .feedback__item {
+        width: 100%;
+        max-width: 327px;
+    }
+    
+    
+    .feedback__quote {
+        margin-bottom: 16px;
+    }
+    
+    
+    .feedback__item::after {
+        margin-top: 16px;
+        margin-bottom: 48px;
+    }
+
+    .feedback__item:nth-child(3):after{
+        margin-bottom: 0;
+    }
+    
+}
+
