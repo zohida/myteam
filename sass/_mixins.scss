@@ -29,11 +29,6 @@
     list-style: none;
 }
 
-// &__logo{
-//     @include link-unstyled;
-//     color: #fff;
-// }
-
 @mixin link-unstyled{
     display: inline-block;
     color: #000;

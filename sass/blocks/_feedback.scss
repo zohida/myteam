@@ -1,6 +1,9 @@
 .feedback {
     padding: 140px 0;
     background-color: #004047;
+    background-image: url("/images/bG2.svg"), url("/images/bG5.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom, left top;
 }
 
 .feedback__title-wrapper {
