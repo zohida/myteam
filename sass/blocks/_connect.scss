@@ -1,0 +1,105 @@
+.connect {
+    background-color: #014E56;
+    padding-bottom: 128px;
+    background-image: url("/images/bG9.svg"), url("/images/bG10.svg");
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+}
+
+.connect__inner {
+    @include flexbox;
+}
+
+.connect__title {
+    color: #FFF;
+    font-family: "Livvic";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.connect__subtitle {
+    color: #F67E7E;
+    font-family: "Livvic";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.connect__list {
+    @include list-unstyled;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.connect__text {
+    color: #FFF;
+    font-family: "Livvic";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.connect__text::before {
+    display: block;
+    width: 72px;
+    height: 72px;
+    background-image: url("/images/Icon1.svg");
+    content: "";
+}
+
+.connect__text--second::before {
+    display: block;
+    width: 72px;
+    height: 72px;
+    background-image: url("/images/Icon2.svg");
+    content: "";
+}
+
+.connect__text--third::before {
+    display: block;
+    width: 72px;
+    height: 72px;
+    background-image: url("/images/Icon3.svg");
+    content: "";
+}
+
+.connect__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.connect__input {
+    width: 540px;
+    background-color: transparent;
+    font-family: "Livvic";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.115px;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #fff;
+    opacity: 0.6;
+    padding: 24px 0 16px 14px;
+}
+
+.connect__input--last {
+    resize: horizontal;
+    margin-bottom: 24px;
+}

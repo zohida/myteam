@@ -1,0 +1,94 @@
+.directors {
+    background-color: #004047;
+    padding: 140px 0;
+    background-image: url(/images/bG7.svg), url("/images/bG8.svg");
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+}
+
+.directors__title {
+    margin: 0;
+    margin-bottom: 64px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Livvic";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.directors__list {
+    @include list-unstyled;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.directors__item {
+    background-color: #012F34;
+    padding: 32px 48px 56px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.directors__item::after {
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -28px;
+    margin: 0 auto;
+    width: 56px;
+    height: 56px;
+    background-image: url("/images/plus.svg");
+    background-repeat: no-repeat;
+    content: "";
+}
+
+.directors__item:last-child::after {
+    background-image: url("/images/krestik.svg");
+}
+
+.directors__item--last {
+    margin-top: 48px;
+}
+
+.directors__subtitle {
+    margin: 0;
+    margin-top: 16px;
+    color: #79C8C7;
+    text-align: center;
+    font-family: "Livvic";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.directors__subtitle--last {
+    margin-bottom: 8px;
+}
+
+.directors__text {
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "Livvic";
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.directors__text--last {
+    color: #FFF;
+    text-align: center;
+    font-family: "Livvic";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
